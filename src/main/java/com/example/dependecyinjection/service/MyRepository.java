@@ -26,5 +26,9 @@ public class MyRepository {
 	public void destroy() {
 		System.out.println("Repository will be destroyted");
 	}
+	
+	public void sayHello() {
+		System.out.println("Hello from repository");
+	}
 
 }
